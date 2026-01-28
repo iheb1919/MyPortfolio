@@ -1,0 +1,18 @@
+.mobile .navbar{
+    height: 0%;
+    width: 0%;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    display: block;
+    background-color: aqua;
+}
+.navbar{
+    transition: height .5s linear;
+    overflow: hidden;
+}
+.mobile .navbar.openNav{
+    height: 92vh;
+    
+}
